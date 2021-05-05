@@ -1,1 +1,5 @@
-
+{
+  "utterance": "what are you made of",
+  "intent_type": "WhatAreYouMadeOf.intent",
+  "expected_dialog": "what.are.you.made.of"
+}
