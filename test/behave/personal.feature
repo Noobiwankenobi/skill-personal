@@ -30,7 +30,3 @@ Feature: mycroft-personal
      When the user says "who made you"
      Then "mycroft-personal" should reply with dialog from "who.made.me.dialog"
 
-  Scenario: what are you made of
-    Given an english speaking user
-     When the user says "what are you made of"
-     Then "mycroft-personal" should reply with dialog from "what.are.you.made.of.dialog"
