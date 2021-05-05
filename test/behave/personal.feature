@@ -20,11 +20,6 @@ Feature: mycroft-personal
      When the user says "where were you born"
      Then "mycroft-personal" should reply with dialog from "where.was.i.born.dialog"
 
-  Scenario: who are you
-    Given an english speaking user
-     When the user says "who are you"
-     Then "mycroft-personal" should reply with dialog from "who.am.i.dialog"
-
   Scenario: who made you
     Given an english speaking user
      When the user says "who made you"
